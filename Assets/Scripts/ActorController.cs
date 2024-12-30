@@ -27,6 +27,7 @@ public class ActorController : MonoBehaviour
     void Update()//Time.deltaTime
     {
         // float targetRunMulti = ((pi.run)?2.0f:1.0f);
+        // merge test2
         anim.SetFloat("forward", pi.Dmag * Mathf.Lerp(anim.GetFloat("forward"), ((pi.run)?2.0f:1.0f), 0.5f));
         // if ( rigid.velocity.magnitude > 0.05f ){ //速度求模
         //     anim.SetTrigger("roll");
